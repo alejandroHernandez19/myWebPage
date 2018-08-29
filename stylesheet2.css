@@ -1,0 +1,97 @@
+/*
+ * box-sizing: border-box property allows us to include
+ * the padding and border in an element's total width and height
+ */
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+}
+
+.header {
+	background-image: url("snow.gif");
+	padding: 20px;
+	text-align:center;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-image: url("purplePaint.gif");
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+	color: white;
+}
+
+/*PORTOFLIO COLUMNS*/
+.p-leftcolumn {
+	float: left;
+	width: 50%;
+}
+
+.p-rightcolumn {
+	float: left;
+	width: 50%;
+	background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+	padding-left: 20px;
+}
+
+/*PORTOFLIO CARDS*/
+.w-card {
+	  background-image: url("darkblue.jpg");
+    padding: 20px;
+    margin-top: 20px;
+}
+.p-card {
+	  background-image: url("yellow.jpg");
+    padding: 20px;
+    margin-top: 20px;
+}
+.v-card {
+    background-color: red;
+    padding: 20px;
+    margin-top: 20px;
+}
+.c-card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer {
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+    text-align: center;
+    padding: 10px;
+}

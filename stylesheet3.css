@@ -1,0 +1,112 @@
+/*
+ * box-sizing: border-box property allows us to include
+ * the padding and border in an element's total width and height
+ */
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+}
+
+.header {
+	background-image: url("snow.gif");
+	padding: 20px;
+	text-align:center;
+}
+
+.header h1 {
+    font-size: 53px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-image: url("purplePaint.gif");
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+	color: white;
+}
+
+/*ABOUT ME COLUMNS*/
+.a-leftcolumn {
+	float: left;
+	width: 33%;
+}
+
+.a-centercolumn {
+	float: left;
+	width: 33%;
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+	padding-left: 20px;
+}
+
+.a-rightcolumn {
+	float: left;
+	width: 33%;
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+	padding-left: 20px;
+}
+
+.a-bottomcolumn {
+	float: left;
+	width: 100%;
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+}
+
+/*ABOUT ME CARDS*/
+.card1 {
+	  background-image: url("red.jpg");
+    padding: 20px;
+    margin-top: 20px;
+}
+.card2 {
+	  background-image: url("blue1.jpg");
+    padding: 20px;
+    margin-top: 20px;
+}
+.card3 {
+	  background-image: url("red.jpg");
+    padding: 20px;
+    margin-top: 20px;
+}
+.card4 {
+    background-image: url("https://cdn103.picsart.com/204396711000202.gif?r240x240");
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer {
+	  background-image: url("https://thumbs.gfycat.com/PastChillyAnkolewatusi-small.gif");
+    text-align: center;
+    padding: 15px;
+}
